@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url('Avenir-Light.ttf');
+}
+
+.wf-loading {
+  display: none;
+}
+
+.wf-active {
+  display: block;
+}
+
 html {
   height: 100%;
 }
@@ -103,9 +116,8 @@ a {
 }
 
 .caro .bae-site {
-  font-family: 'Avenir';
+  font-family: 'Avenir-Light';
   color: #458BB0;
-  font-weight: 200;
 }
 
 .avi .bae-title {
