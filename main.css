@@ -1,0 +1,328 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  background: linear-gradient(90deg, #fdfdfd 50%, #222831 50%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.carovi-header {
+  background-color: #1B70B6;
+  width: 100%;
+}
+
+.carovi-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'Niveau Grotesk';
+  font-weight: 700;
+  color: #fdfdfd;
+  font-size: 90px;
+}
+
+.carovi {
+  display: flex;
+  position: relative;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.bae {
+  width: 50vw;
+}
+
+.heart {
+  width: 150px;
+  height: 133px;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.top-heart {
+  top: 45px;
+}
+
+.bottom-heart {
+  bottom: 50px;
+}
+
+.dot-sexy {
+  font-weight: 300;
+}
+
+.bae-title {
+  font-size: 130px;
+  margin: 0;
+  margin-bottom: -20px;
+}
+
+.bae-site {
+  font-size: 70px;
+  margin: 0;
+}
+
+.caro {
+  text-align: right;
+  padding-right: 60px;
+}
+
+.avi {
+  padding-left: 60px;
+}
+
+.bae {
+  text-align: center;
+  padding: 0;
+}
+
+.caro, .avi {
+  margin-bottom: 50px;
+}
+
+.caro .bae-title {
+  font-family: 'Dosis';
+  color: #1B70B6;
+  font-weight: normal;
+  margin-bottom: -28px;
+}
+
+.caro .bae-site {
+  font-family: 'Avenir';
+  color: #458BB0;
+  font-weight: 200;
+}
+
+.avi .bae-title {
+  font-family: 'Niveau Grotesk';
+  color: #EEEEEE;
+  font-weight: 200;
+}
+
+.avi .bae-site {
+  font-family: 'Niveau Grotesk';
+  color: #EEEEEE;
+  font-weight: 100;
+}
+
+@media (min-width: 1060px) {
+  .bae-title {
+    font-size: 160px;
+  }
+
+  .bae-site {
+    font-size: 80px;
+  }
+}
+
+@media(max-height: 700px) {
+  /* make hearts smaller */
+  .heart {
+    width: 100px;
+    height: 89px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+  .bottom-heart {
+    bottom: 60px;
+  }
+}
+
+@media(max-height: 635px) {
+  /* move bottom heart down */
+  .bottom-heart {
+    bottom: 30px;
+  }
+}
+
+@media(max-height: 580px) {
+  /* condense hearts into one heart */
+
+  .caro, .avi {
+    margin-bottom: 30px;
+  }
+
+  .bottom-heart {
+    display: none;
+  }
+
+  .heart {
+    width: 150px;
+    height: 133px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -66px;
+  }
+
+  .bae {
+    padding-bottom: 0;
+  }
+
+  .bae-title {
+    font-size: 100px;
+  }
+
+  .bae-site {
+    font-size: 60px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  /* condense hearts into one heart */
+  .carovi-title {
+    font-size: 50px;
+  }
+
+  .heart {
+    width: 100px;
+    height: 89px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+  .bae-title {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: -20px;
+  }
+
+  .bae {
+    text-align: center;
+    padding: 0;
+  }
+
+  .caro .bae-title, .avi .bae-title {
+    margin-bottom: 0;
+  }
+
+  .bae-site {
+    font-size: 40px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 835px) and (max-height: 555px) {
+  .bae {
+    text-align: center;
+    padding: 0;
+  }
+
+  .carovi-title {
+    font-size: 70px;
+  }
+
+  .bae-title {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: -20px;
+  }
+
+  .caro .bae-title, .avi .bae-title {
+    margin-bottom: 0;
+  }
+
+  .bae-site {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .heart {
+    width: 100px;
+    height: 89px;
+    margin-left: -50px;
+  }
+}
+
+@media (max-height: 429px) {
+  .bae-container {
+    display: none;
+  }
+
+  .heart {
+    margin-top: -66px;
+    display: block;
+  }
+}
+
+@media (max-width: 835px) and (max-height: 580px) {
+  .bae {
+    text-align: center;
+    padding: 0;
+  }
+
+  .carovi-title {
+    font-size: 70px;
+  }
+
+  .bae-title {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: -20px;
+  }
+
+  .caro .bae-title, .avi .bae-title {
+    margin-bottom: 0;
+  }
+
+  .bae-site {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .heart {
+    width: 100px;
+    height: 89px;
+    margin-left: -50px;
+    margin-top: -44px;
+  }
+
+}
+
+@media (max-width: 525px) and (max-height: 580px) and (min-height: 429px) {
+  .heart {
+    display: none;
+  }
+}
+
+
+@media (max-height: 350px) {
+  .heart {
+    width: 100px;
+    height: 89px;
+    margin-left: -50px;
+    margin-top: -44px;
+  }
+}
+
+@media (max-height: 276px) {
+  .heart {
+    display: none;
+  }
+}
+
+@media (max-width: 458px) {
+  .carovi-title {
+    font-size: 50px;
+  }
+}
