@@ -120,6 +120,16 @@ a {
   font-weight: 100;
 }
 
+@media (max-width: 650px) {
+    .top-heart {
+      top: 70px;
+    }
+
+    .bottom-heart {
+      bottom: 70px;
+    }
+}
+
 @media (min-width: 1060px) {
   .bae-title {
     font-size: 160px;
@@ -188,7 +198,6 @@ a {
 
 
 @media (max-width: 650px) {
-  /* condense hearts into one heart */
   .carovi-title {
     font-size: 50px;
   }
@@ -200,6 +209,7 @@ a {
     left: 50%;
     margin-left: -50px;
   }
+
 
   .bae-title {
     font-size: 80px;
