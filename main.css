@@ -201,7 +201,8 @@ a {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
+
   .bae-title {
     font-size: 50px;
     margin-bottom: -20px;
@@ -210,9 +211,7 @@ a {
   .bae-site {
     font-size: 30px;
   }
-}
 
-@media (max-width: 650px) {
   .carovi-title {
     font-size: 80px;
   }
@@ -225,9 +224,7 @@ a {
     margin-left: -40px;
   }
 
-
   .bae-title {
-    font-size: 50px;
     margin: 0;
   }
 
@@ -244,7 +241,6 @@ a {
   }
 
   .bae-site {
-    font-size: 40px;
     margin: 0;
   }
 }
