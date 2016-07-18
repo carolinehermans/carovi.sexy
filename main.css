@@ -59,6 +59,13 @@ a {
   width: 50vw;
 }
 
+.bae-container {
+  padding-top: 1000px;
+  padding-bottom: 1000px;
+  margin-top: -1000px;
+  margin-bottom: -1000px;
+}
+
 .heart {
   width: 150px;
   height: 133px;
@@ -194,10 +201,20 @@ a {
   }
 }
 
+@media (max-width: 580px) {
+  .bae-title {
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
+
+  .bae-site {
+    font-size: 30px;
+  }
+}
 
 @media (max-width: 650px) {
   .carovi-title {
-    font-size: 50px;
+    font-size: 80px;
   }
 
   .heart {
@@ -212,7 +229,6 @@ a {
   .bae-title {
     font-size: 50px;
     margin: 0;
-    margin-bottom: -20px;
   }
 
   .bae {
@@ -221,14 +237,14 @@ a {
   }
 
   .caro .bae-title {
-    margin-bottom: -13px;
+    margin-bottom: -8px;
   }
   .avi .bae-title {
-    margin-bottom: -7px;
+    margin-bottom: -5px;
   }
 
   .bae-site {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
   }
 }
@@ -259,7 +275,7 @@ a {
 }
 
 @media (max-height: 429px) {
-  .bae-container {
+  .bae-title, .bae-site {
     display: none;
   }
 
