@@ -220,8 +220,11 @@ a {
     padding: 0;
   }
 
-  .caro .bae-title, .avi .bae-title {
-    margin-bottom: 0;
+  .caro .bae-title {
+    margin-bottom: -13px;
+  }
+  .avi .bae-title {
+    margin-bottom: -7px;
   }
 
   .bae-site {
